@@ -1,0 +1,225 @@
+body {
+	background: url(../img/background.png) repeat-x;
+	background-color: #0c739f;
+}
+.conteiner {
+	display: block;
+	width: 1000px;
+	margin: 0 auto;
+	background: white;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+}
+/*----------------HEADER----------------*/
+.header {
+	display: block;
+	width: 1000px;
+}
+/*--TOP-HEADER--*/
+.top-header {
+	display: block;
+	width: 1000px;
+	height: 173px;
+}
+.logo {
+	margin-top: 10px;
+	margin-left: 28px;
+}
+.box-header {
+	display: block;
+	position: relative;
+	float: right;
+	margin-right: 32px;
+}
+.cliarfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.contacts {
+	width: 130px;
+	position: relative;
+	margin-top: 11px;
+	left: 196px;
+}
+.contacts p {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.5;
+	opacity: 0.8;
+	color: #128aa7;
+}
+.box-conties {
+	display: block;
+	position: relative;
+}
+.contries {
+	display: block;
+}
+.contries li {
+	display: block;
+	position: relative;
+	float: left;
+	margin-right: 10px;
+	margin-top: 27px;
+}
+.contries li a:link{
+	color: #128aa7;
+}
+.contries li a p {
+	font-family: Tahoma;
+	font-size: 10px;
+	font-weight: 400;
+	color: #128aa7;
+	text-align: center;
+}
+/*---PHOTO---*/
+.photo{
+	height: 237px;
+	border-top: #128aa7 solid 1px; 
+	border-bottom: #128aa7 solid 1px; 
+}
+/*---MENU----*/
+.centr-panel {
+	display: block;
+	border-bottom: #000 solid 1px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.75);
+}
+.centr-panel > ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	background-image: linear-gradient(to top, #373737 0%, #303030 100%);
+}
+.centr-panel > ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+    margin-left: 45px;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(to top, #373737 0%, #303030 100%);
+    font-family: Tahoma;
+	font-size: 14px;
+    text-decoration: none;
+}
+ul.menu > li > a > img{
+	margin-left: 8px;
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 150px;
+    top: 35px;
+    left: 0;
+    background-color: #303030;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
+}
+ul.submenu > li {
+    display: block;
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #303030;
+    font-family: Tahoma;
+	font-size: 14px;
+    text-decoration: none;
+}
+ul.menu > li:hover > ul.submenu {
+    display: block;
+    z-index: 1;
+}
+/*---------------END HEADER-----------------------*/
+/*----------------CONTENT----------------------*/
+.content{
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.fon1 {  
+width: 100%;
+background: #edeef0;
+float: left; 
+position: relative; 
+right: 60%; 
+}
+.fon2 {
+width: 100%;
+background: white;
+float: left;
+position: relative;
+right: 20%; 
+}
+.fon3 {
+width: 100%;
+background: #edeef0;
+float: left;
+}
+.leftColumn {
+width: 20%;
+float: left;
+overflow: hidden; 
+position:relative;
+left:80%; 
+padding-top: 20px;
+}
+.centerColumn {
+width: 60%;
+float: left;
+overflow: hidden;
+position:relative;
+left:80%;
+}
+.rightColumn {
+width: 18%;
+float: left;
+overflow: hidden;
+position:relative;
+left:80%;
+padding-top: 20px;
+}
+.leftColumn h3 {
+	text-align: center;
+}
+.leftColumn p {
+	padding: 5px 20px;
+}
+.rightColumn h3 {
+	text-align: center;
+}
+.rightColumn p {
+	padding: 5px 20px;
+}
+.centerColumn p {
+	padding: 20px;
+}
+/*---------------- END CONTENT----------------------*/
+/*---------------------FOOTER--------------------*/
+.footer {
+	display: block;
+	width: 1018px;
+	height: 30px;
+	margin: 0 auto;
+}
+.footer p {
+	padding: 9px 0 13px;
+	text-align: center;
+	opacity: 0.8;
+	color: white;
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: 400;
+}
