@@ -6,17 +6,15 @@ body {
 	display: block;
 	width: 1000px;
 	margin: 0 auto;
-	background: white;
+	background: white;         
 	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
 }
 /*----------------HEADER----------------*/
 .header {
-	display: block;
 	width: 1000px;
 }
 /*--TOP-HEADER--*/
 .top-header {
-	display: block;
 	width: 1000px;
 	height: 173px;
 }
@@ -25,7 +23,6 @@ body {
 	margin-left: 28px;
 }
 .box-header {
-	display: block;
 	position: relative;
 	float: right;
 	margin-right: 32px;
@@ -44,7 +41,7 @@ body {
 	left: 196px;
 }
 .contacts p {
-	font-family: Tahoma;
+	font-family: Tahoma, sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 1.5;
@@ -52,14 +49,9 @@ body {
 	color: #128aa7;
 }
 .box-conties {
-	display: block;
 	position: relative;
 }
-.contries {
-	display: block;
-}
 .contries li {
-	display: block;
 	position: relative;
 	float: left;
 	margin-right: 10px;
@@ -69,7 +61,7 @@ body {
 	color: #128aa7;
 }
 .contries li a p {
-	font-family: Tahoma;
+	font-family: Tahoma, sans-serif;
 	font-size: 10px;
 	font-weight: 400;
 	color: #128aa7;
@@ -82,17 +74,14 @@ body {
 	border-bottom: #128aa7 solid 1px; 
 }
 /*---MENU----*/
-.centr-panel {
-	display: block;
-	border-bottom: #000 solid 1px;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.75);
-}
 .centr-panel > ul {
     display: block;
     margin: 0;
     padding: 0;
     list-style: none;
 	background-image: linear-gradient(to top, #373737 0%, #303030 100%);
+	border-bottom: #000 solid 1px;
+
 }
 .centr-panel > ul:after {
     display: block;
@@ -103,25 +92,25 @@ body {
 ul.menu > li {
     float: left;
     position: relative;
-    margin-left: 45px;
+    margin-left: 40px;
 }
 ul.menu > li > a {
     display: block;
     padding: 10px;
     color: white;
-    background-image: linear-gradient(to top, #373737 0%, #303030 100%);
-    font-family: Tahoma;
+    font-family: Tahoma, sans-serif;
 	font-size: 14px;
     text-decoration: none;
 }
-ul.menu > li > a > img{
-	margin-left: 8px;
+ul.menu > li > a > span{
+	margin-left: 5px;
+	color: white;
 }
 ul.submenu {
     display: none;
     position: absolute;
     width: 150px;
-    top: 35px;
+    top: 34px;
     left: 0;
     background-color: #303030;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.75);
@@ -134,7 +123,7 @@ ul.submenu > li > a {
     padding: 10px;
     color: white;
     background-color: #303030;
-    font-family: Tahoma;
+    font-family: Tahoma, sans-serif;
 	font-size: 14px;
     text-decoration: none;
 }
@@ -150,58 +139,81 @@ ul.menu > li:hover > ul.submenu {
 	overflow: hidden;
 }
 .fon1 {  
-width: 100%;
-background: #edeef0;
-float: left; 
-position: relative; 
-right: 60%; 
+	width: 100%;
+	background: #edeef0;
+	float: left; 
+	position: relative; 
+	right: 60%; 
+	border-right: #c7cacf solid 1px;
 }
 .fon2 {
-width: 100%;
-background: white;
-float: left;
-position: relative;
-right: 20%; 
+	width: 100%;
+	background: white;
+	float: left;
+	position: relative;
+	right: 20%; 
+	border-right: #c7cacf solid 1px;
 }
 .fon3 {
-width: 100%;
-background: #edeef0;
-float: left;
+	width: 100%;
+	background: #edeef0;
+	float: left;
+	
 }
 .leftColumn {
-width: 20%;
-float: left;
-overflow: hidden; 
-position:relative;
-left:80%; 
-padding-top: 20px;
+	width: 20%;
+	float: left;
+	overflow: hidden; 
+	position:relative;
+	left:80%; 
+	padding-top: 20px;
 }
 .centerColumn {
-width: 60%;
-float: left;
-overflow: hidden;
-position:relative;
-left:80%;
+	width: 60%;
+	float: left;
+	overflow: hidden;
+	position:relative;
+	left:80%;
 }
 .rightColumn {
-width: 18%;
-float: left;
-overflow: hidden;
-position:relative;
-left:80%;
-padding-top: 20px;
+	width: 20%;
+	float: left;
+	overflow: hidden;
+	position:relative;
+	left:80%;
+	padding-top: 20px;
 }
 .leftColumn h3 {
 	text-align: center;
+	font-size: 18px;
+	font-family: Tahoma, sans-serif;
+	color: #424c43;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75)
+
 }
 .leftColumn p {
-	padding: 5px 20px;
+	padding: 5px 14px;
+	color: #424c43;
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	border-bottom: #c7cacf solid 1px;
 }
 .rightColumn h3 {
 	text-align: center;
+	font-size: 18px;
+	font-family: Tahoma, sans-serif;
+	color: #424c43;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75)
 }
 .rightColumn p {
-	padding: 5px 20px;
+	padding: 5px 14px;
+	color: #424c43;
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	border-bottom: #c7cacf solid 1px;
+
 }
 .centerColumn p {
 	padding: 20px;
@@ -219,7 +231,7 @@ padding-top: 20px;
 	text-align: center;
 	opacity: 0.8;
 	color: white;
-	font-family: Tahoma;
+	font-family: Tahoma, sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 }
